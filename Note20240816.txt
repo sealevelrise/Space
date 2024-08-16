@@ -1,0 +1,14 @@
+1. ubuntu 24 install deb
+	/etc/apt/sources.list.d/ubuntu.sources	
+   Add(gconf2):
+	Types: deb
+	URIs: http://cz.archive.ubuntu.com/ubuntu/
+	Suites: jammy
+	Components: main universe
+	Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
+	
+   sudo apt -y -f install xxx.deb
+   
+2. VScode github config Commit user.name 
+	git config user.name "sealevelrise"
+	git config user.email "sealevelrise@qq.com"
