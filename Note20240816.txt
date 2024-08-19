@@ -12,3 +12,6 @@
 2. VScode github config Commit user.name 
 	git config user.name "sealevelrise"
 	git config user.email "sealevelrise@qq.com"
+3. Update snap-store
+	killall snap-store
+	sudo snap refresh snap-store
