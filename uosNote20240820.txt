@@ -1,0 +1,13 @@
+//UOS Note 20240820
+1. 	code_1.92.2-1723660989_amd64.deb
+	https://mirrors.aliyun.com/kali/pool/main/libx/libxkbfile/
+	libxkbfile1_1.1.0-1+b1_amd64.deb
+	
+2.	Gui-Guider-Setup-1.8.0-GA.deb
+	https://mirrors.aliyun.com/debian/pool/main/libf/libffi/
+	libffi7_3.3-6_amd64.deb
+
+3.	https://github.com/lvgl/lv_port_pc_vscode
+	git clone --recursive https://github.com/lvgl/lv_port_pc_vscode.git
+	cd lv_port_pc_vscode
+	git submodule update --init --recursive
