@@ -11,3 +11,14 @@
 	git clone --recursive https://github.com/lvgl/lv_port_pc_vscode.git
 	cd lv_port_pc_vscode
 	git submodule update --init --recursive
+	sudo apt updtate && sudo apt install -y build-essential libsdl2-dev cmake
+	mkdir build
+	cd build
+	cmake ..
+	make -j
+
+4.	UOS install SDL2 2.30.6		tar -zxvf SDL2-2.30.6.tar.gz	cd SDL2-2.30.6
+	sudo ./configure --prefix=/usr
+	make
+	sudo make install
+	sdl2-config --version

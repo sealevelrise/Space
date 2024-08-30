@@ -1,0 +1,20 @@
+//20240827
+1.	sudo apt update && sudo apt install bzip2
+2.	sudo ./VBoxLinuxAdditions.run
+3.	sudo killall snap && sudo snap -refresh snap-store
+4.	sudo apt install nautilus-admin && nautilus -q
+5.	App GDebi install
+6.	code_1.92.2-1723660989_amd64.deb Open With GDebi
+7.	open vscode File Preferences Settings Windows Title Bar Style
+8.	sudo apt install git
+9.	vscode Sync github clone Repository
+10.	Guixx.deb for deb and gconf2
+	/etc/apt/sources.list.d/ubuntu.sources
+	deb http://cz.archive.ubuntu.com/ubuntu/ jammy main universe
+11.	sudo apt update && sudo apt install -y ./Gui-Guider-Setup-1.8.0-GA.deb
+12.	git clone --recurse-submodules https://github.com/lvgl/lv_port_pc_vscode.git
+13.	sudo apt install -y build-essential cmake libsdl2-dev
+14.	gcc -o sdl2 sdl2.c `sdl2-config --cflags --libs`
+15.	https://debian.pkgs.org/10/debian-main-arm64/libsdl2-2.0-0_2.0.9+dfsg1-1_arm64.deb.html
+	https://debian.pkgs.org/10/debian-main-amd64/libsdl2-dev_2.0.9+dfsg1-1_amd64.deb.html
+
